@@ -1,6 +1,6 @@
 # Welcome to the EOS MainNet Testnet
 
-Based on tag: mainnet-1.0.2.2
+Based on tag: mainnet-1.0.2.2  
 Network Monitor: http://eosnetworkmonitor.io/  
 
 # Auto Installer script 
