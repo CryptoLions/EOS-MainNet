@@ -2,7 +2,9 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# https://github.com/CryptoLions/scripts/
+# For EOS mainnet
+#
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ###############################################################################
 
