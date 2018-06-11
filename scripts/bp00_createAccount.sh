@@ -29,6 +29,6 @@ STAKE_NET="1.0000 EOS"
 #Buy RAM kbyts
 BUYRAM=8
 
-./cleos.sh system newaccount --stake-net "$STAKE_CPU" --stake-cpu "$STAKE_NET" --buy-ram-kbytes $BUYRAM $CREATOR $NEWACC $KEY_OWNER_1 $KEY_OWNER_2
+./cleos.sh system newaccount --stake-net "$STAKE_NET" --stake-cpu "$STAKE_CPU" --buy-ram-kbytes $BUYRAM $CREATOR $NEWACC $KEY_OWNER_1 $KEY_ACTIVE_1
 
 
