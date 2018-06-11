@@ -2,13 +2,15 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# https://github.com/CryptoLions/EOS-Jungle-Testnet
+# For EOS mainnet
+#
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ###############################################################################
 
-
-NODEOSBINDIR="/home/eos-sources/eos/build/programs"
 DATADIR="/opt/EOSmainNet"
+NODEOSBINDIR="/home/eos-sources/eos/build/programs"
+
 
 $DATADIR/stop.sh
 echo -e "Starting Nodeos \n";
