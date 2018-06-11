@@ -2,13 +2,16 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# For EOS Junlge testnet
+# For EOS mainnet
 #
-# https://github.com/CryptoLions/
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ################################################################################
-VOTER="VOTER_ACCOUNT_NAME"
-# put list bp you would like to vote
-VOTEFOR="cryptolions1 eosriobrazil eosnewyorkio"
+
+# VOTER ACCOUNT NAME
+VOTER=""
+
+# BP's you want to vote on
+VOTEFOR="cryptolions1 eosswedenorg eosriobrazil eosnewyorkio"
 
 ./cleos.sh system voteproducer prods $VOTER $VOTEFOR -p $VOTER
