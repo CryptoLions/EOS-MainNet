@@ -2,12 +2,13 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# For EOS Junlge testnet
+# For EOS mainnet
 #
-# https://github.com/CryptoLions/
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ################################################################################
 
-ACCOUNT="YOUR_BP_ACCOUNT_NAME"
+# YOUR BP ACCOUNT NAME
+ACCOUNT=""
 
 ./cleos.sh system claimrewards $ACCOUNT -p $ACCOUNT
