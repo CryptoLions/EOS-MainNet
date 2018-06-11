@@ -2,11 +2,13 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# For EOS Junlge testnet
+# For EOS mainnet
 #
-# https://github.com/CryptoLions/
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ################################################################################
-ACCOUNT="BP_ACCOUNT_NAME"
+
+# BP's ACCOUNT NAME
+ACCOUNT=""
 
 ./cleos.sh system unregprod $ACCOUNT -p $ACCOUNT
