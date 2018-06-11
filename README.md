@@ -1,7 +1,7 @@
 # Welcome to the EOS MainNet
 
 Based on tag: mainnet-1.0.2.2  
-Network Monitor: <a href="http://eosnetworkmonitor.io/">eosnetworkmonitor.io</a> 
+Network Monitor and Voting command prepering tool: <a href="http://eosnetworkmonitor.io/">eosnetworkmonitor.io</a> 
 
 # Auto Installer script 
 - in progress
