@@ -3,7 +3,9 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# https://github.com/CryptoLions/EOS-Jungle-Testnet/
+# For EOS mainnet
+#
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ###############################################################################
 
