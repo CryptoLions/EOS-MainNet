@@ -2,14 +2,22 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# For EOS Junlge testnet
+# For EOS mainnet
 #
-# https://github.com/CryptoLions/
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ################################################################################
-FROM="YOUR_ACCOUNT_NAME"
-TO="UNDELEGATE_ACCOUNT_NAME_FROM"
+
+# YOUR ACCOUNT NAME
+FROM=""
+
+# UNDELEGATE ACCOUNT NAME FROM
+TO=""
+
+# UNDELEGATE NET BANDWIDTH
 NET="1.0000 EOS"
+
+# UNDELEGATE CPU BANDWIDTH
 CPU="1.0000 EOS"
 
 ./cleos.sh system undelegatebw $FROM $TO $NET $CPU -p $FROM
