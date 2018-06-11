@@ -2,15 +2,22 @@
 ################################################################################
 #
 # Scrip Created by http://CryptoLions.io
-# For EOS Junlge testnet
+# For EOS mainnet
 #
-# https://github.com/CryptoLions/
+# https://github.com/CryptoLions/EOS-MainNet
 #
 ################################################################################
-FROM="ACCOUNT_NAME_SENDER"
-TO="ACCOUNT_NAME_RECEIVER"
-NET="1.0000 EOS"
-CPU="1.0000 EOS"
 
+# SENDER ACCOUNT NAME
+FROM=""
+
+# RECEIVER ACCOUNT NAME
+TO=""
+
+#Delegate NET bandwidth
+NET="1.0000 EOS"
+
+#Delegate CPU bandwidth
+CPU="1.0000 EOS"
 
 ./cleos.sh system delegatebw $FROM $TO "$NET" "$CPU" -p $FROM
