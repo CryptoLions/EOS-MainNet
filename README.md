@@ -88,6 +88,8 @@ git submodule update --init --recursive
 
 - Check if you can access you node using link http://you_server:your_http_port/v1/chain/get_info 
 
+# add bp.json with info about your node:
+https://github.com/eosrio/bp-info-standard
 
 # Other Tools/Examples
 - In scripts folder you can find examples how to register as producer, stake, vote, claimrewards, etc
