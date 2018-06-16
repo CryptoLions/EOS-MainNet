@@ -41,6 +41,18 @@ git submodule update --init --recursive
 ./eosio_build.sh   
 ```  
 
+## Update EOS
+
+```
+mkdir /home/eos-sources  
+cd /home/eos-sources/eos  
+
+git checkout mainnet-1.0.5
+git submodule update --init --recursive   
+
+./eosio_build.sh  
+```  
+
 ## Configuring Node
 - Create data-dir folder for you node:
   ```
