@@ -1,6 +1,6 @@
 # Welcome to the EOS MainNet
 
-Based on tag: mainnet-1.0.4 
+Based on tag: mainnet-1.0.5 
 Network Monitor and Voting command prepering tool: <a href="http://eosnetworkmonitor.io/">EOSnetworkMonitor.io</a> 
 
 # Auto Installer script 
@@ -35,7 +35,7 @@ cd /home/eos-sources
 git clone https://github.com/EOS-Mainnet/eos.git --recursive    
 cd eos  
 
-git checkout mainnet-1.0.4  
+git checkout mainnet-1.0.5  
 git submodule update --init --recursive   
 
 ./eosio_build.sh   
