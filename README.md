@@ -47,7 +47,7 @@ git submodule update --init --recursive
 mkdir /home/eos-sources  
 cd /home/eos-sources/eos  
 
-git checkout mainnet-1.0.5
+git checkout mainnet-1.0.6
 git submodule update --init --recursive   
 
 ./eosio_build.sh  
