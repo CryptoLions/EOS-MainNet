@@ -17,5 +17,5 @@ PUBKEY=""
 #URL="http://cryptolions.io"
 URL=""
 
-./cleos.sh system regproducer $ACCOUNT $PUBKEY "$URL" -p $ACCOUNT
+../cleos.sh system regproducer $ACCOUNT $PUBKEY "$URL" -p $ACCOUNT
 
