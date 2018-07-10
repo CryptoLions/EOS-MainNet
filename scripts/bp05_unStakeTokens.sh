@@ -20,4 +20,4 @@ NET="1.0000 EOS"
 # UNDELEGATE CPU BANDWIDTH
 CPU="1.0000 EOS"
 
-./cleos.sh system undelegatebw $FROM $TO $NET $CPU -p $FROM
+../cleos.sh system undelegatebw $FROM $TO $NET $CPU -p $FROM
