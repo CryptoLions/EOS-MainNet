@@ -20,4 +20,4 @@ NET="1.0000 EOS"
 #Delegate CPU bandwidth
 CPU="1.0000 EOS"
 
-./cleos.sh system delegatebw $FROM $TO "$NET" "$CPU" -p $FROM
+../cleos.sh system delegatebw $FROM $TO "$NET" "$CPU" -p $FROM
