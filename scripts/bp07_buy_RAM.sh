@@ -17,4 +17,4 @@ RECEIVER=""
 # AMOUNT IN EOS YOU WILL SPENT TO BUY RAM
 QUANT="0.1000 EOS"
 
-./cleos.sh system buyram $PAYER $RECEIVER "$QUANT" -p $PAYER
+../cleos.sh system buyram $PAYER $RECEIVER "$QUANT" -p $PAYER
