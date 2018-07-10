@@ -11,4 +11,4 @@
 # BP's ACCOUNT NAME
 ACCOUNT=""
 
-./cleos.sh system unregprod $ACCOUNT -p $ACCOUNT
+../cleos.sh system unregprod $ACCOUNT -p $ACCOUNT
