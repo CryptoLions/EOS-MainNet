@@ -11,4 +11,4 @@
 # YOUR BP ACCOUNT NAME
 ACCOUNT=""
 
-./cleos.sh system claimrewards $ACCOUNT -p $ACCOUNT
+../cleos.sh system claimrewards $ACCOUNT -p $ACCOUNT
