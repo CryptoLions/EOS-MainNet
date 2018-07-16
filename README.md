@@ -38,7 +38,7 @@ cd eos
 git checkout mainnet-1.0.10  
 git submodule update --init --recursive   
 
-./eosio_build.sh   
+./eosio_build.sh -s "EOS"     
 ```  
 
 ## Update EOS
@@ -50,7 +50,7 @@ cd /home/eos-sources/eos
 git checkout mainnet-1.0.10
 git submodule update --init --recursive   
 
-./eosio_build.sh  
+./eosio_build.sh -s "EOS"  
 ```  
 
 ## Configuring Node
