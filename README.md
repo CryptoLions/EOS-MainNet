@@ -21,7 +21,7 @@ cd eos
 git checkout mainnet-1.6.0 
 git submodule update --init --recursive   
 
-./eosio_build.sh -s EOS     
+./eosio_build.sh -P -f
 ```  
 
 ## Update EOS
