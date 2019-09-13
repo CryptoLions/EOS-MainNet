@@ -38,7 +38,7 @@ git submodule update --init --recursive
 ```  
 
 ## Configuring Node
-- Create data-dir folder for you node:
+- Create data-dir folder for your node:
   ```
   mkdir /opt/EOSmainNet 
   ```
